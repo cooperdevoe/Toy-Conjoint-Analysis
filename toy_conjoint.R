@@ -16,9 +16,9 @@ cor(caEncodedDesign(surveycards))
 profiles=caEncodedDesign(design=surveycards)
 
 rownames(surveycards) <- NULL 
-write.csv(surveycards, "C:\\Users\\coope\\OneDrive\\Desktop\\Professional\\survey_cards.csv") #<-----change dir here
+write.csv(surveycards, "C:\\Users\\Username\\Desktop\\survey_cards.csv") #<-----change dir here
 
-preferences = read.csv(file="C:\\Users\\coope\\OneDrive\\Desktop\\Professional\\toy_data.csv")
+preferences = read.csv(file="C:\\Users\\Username\\Downloads\\toy_data.csv") #<-----change to personal toy_data.csv file path here
 
 print(profiles)
 
